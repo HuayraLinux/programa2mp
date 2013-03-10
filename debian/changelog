@@ -1,3 +1,10 @@
+programa2mp (1.2.1-2) testing; urgency=low
+
+  * Fix section to non-free/science
+  * Fix debian/copyright
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Sun, 10 Mar 2013 17:37:26 -0300
+
 programa2mp (1.2.1-1) testing; urgency=low
 
   * Initial Release.

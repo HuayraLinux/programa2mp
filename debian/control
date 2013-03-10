@@ -1,5 +1,5 @@
 Source: programa2mp
-Section: science
+Section: non-free/science
 Priority: extra
 Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
