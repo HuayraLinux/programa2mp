@@ -1,0 +1,43 @@
+--- a/usr/share/applications/Programa2Mp.desktop
++++ b/usr/share/applications/Programa2Mp.desktop
+@@ -1,6 +1,5 @@
+ [Desktop Entry]
+-Actions=Apkg-Verify;Apkg-Remove;
+-Categories=Math;Science;Graphics;X-Red-Hat-Base;
++Categories=Math;Science;Education;
+ Comment=Software educativo con imagenes satelitales para jóvenes entre 8 y 16 años de edad
+ Comment[en_US]=Satellite Image educational software for students between 8 and 16 years
+ Encoding=UTF-8
+@@ -18,32 +17,6 @@
+ StartupNotify=false
+ Terminal=false
+ TerminalOptions=
+-TryExec=/usr/bin/Programa2Mp
+ Type=Application
+ Type=Application
+ Version=1.2.1
+-X-Autopackage=@suremptec.com/programa2mp:1.2.1
+-comment[es]=Software educativo con imagenes satelitales para jóvenes entre 8 y 16 años de edad
+- 
+-[Desktop Action Apkg-Verify]
+-Exec=package verify programa2mp
+-Icon=package
+-Name=Verify Package
+-Name[de]=Validieren Paket
+-Name[en]=Verify Package
+-Name[es]=Verifique El Paquete
+-Name[fr]=Vérifier l'emballage
+-Name[it]=Verifichi Il Pacchetto
+-Name[nl]=Pakket Controleren
+- 
+-[Desktop Action Apkg-Remove]
+-Exec=/usr/libexec/autopackage/autosu-gtk --root-only package remove programa2mp
+-Icon=package
+-Name=Remove Package
+-Name[de]=Entfernen Paket
+-Name[en]=Remove Package
+-Name[es]=Quite El Paquete
+-Name[fr]=Enlevez Le Paquet
+-Name[it]=Rimuova Il Pacchetto
+-Name[nl]=Pakket Verwijderen
+- 

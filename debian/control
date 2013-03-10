@@ -1,0 +1,20 @@
+Source: programa2mp
+Section: science
+Priority: extra
+Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://2mp.conae.gov.ar/index.php/home/programa-2mp
+Vcs-Git: git://200.55.245.7/programa2mp.git
+
+Package: programa2mp
+Architecture: i386
+Depends: ${misc:Depends}, libjpeg62
+Description: Permite acceder y utilizae información de origen satelital.
+ En el marco del Plan Espacial Nacional 2004-2015 se crea el "Programa de
+ Entrenamiento Satelital para niños y jóvenes 2Mp" con el objetivo de acercar
+ la tecnología satelital a 2 Millones de pibes. A través del desarrollo del
+ Programa 2Mp se busca que los alumnos a partir de 8 años de las escuelas de
+ Argentina conozcan, tengan acceso y utilicen la información de origen
+ satelital, y que puedan aplicarla en lo sucesivo a las actividades que
+ desarrollan en el ámbito de su vida cotidiana.

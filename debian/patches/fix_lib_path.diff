@@ -1,0 +1,9 @@
+--- a/usr/bin/programa2mp.sh
++++ b/usr/bin/programa2mp.sh
+@@ -2,5 +2,5 @@
+  
+ CALLNAME=$0 
+ CALLDIR=${CALLNAME%/*} 
+-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$CALLDIR/../lib" 
++export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/usr/share/Programa2Mp/lib" 
+ "$CALLDIR"/Programa2Mp "$1"

@@ -1,0 +1,11 @@
+--- a/usr/share/Programa2Mp/data/configuracion.xml
++++ b/usr/share/Programa2Mp/data/configuracion.xml
+@@ -16,7 +16,7 @@
+   <app_hotlinks_dir>hotlinks/</app_hotlinks_dir>
+   <app_vector_dir>vector/</app_vector_dir>
+   <app_lang_dir>${app_data_dir}/locale/</app_lang_dir>
+-  <app_language>spanish</app_language>
++  <app_language>es_AR</app_language>
+   <app_user_data>${app_base_dir_volatile}</app_user_data>
+   <lib_ignored_image_formats>AAIGrid ADRG AIG AIRSAR BLX BSB BT CEOS COASP COSAR CPG DIMAP DIPEx DODS DOQ1 DOQ2 DTED ECW EHdr EIR ELAS ENVI ERS ESAT FAST FIT FITS FujiBAS GENBIN GEORASTER GFF GRIB GMT GRASS GSAG GSBG GS7BG GSC GXF HDF4 HDF5 HFA IDA ILWIS INGR ISIS2 ISIS3 JAXAPALSAR JDEM L1B LAN LCP Leveller MFF MFF2 (HKV) MrSID MSG MSGN NDF NITF netCDF OGDI PAux PCIDSK PCRaster PDS PGCHIP PNM RIK RMF RPFTOC RS2 RST SAR_CEOS SDE SDTS SGI SRP SRTMHGT TERRAGEN Terralib TSX USGSDEM VRT WCS WMS</lib_ignored_image_formats>
+ 
