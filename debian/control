@@ -10,7 +10,7 @@ Vcs-Git: git://200.55.245.7/programa2mp.git
 Package: programa2mp
 Architecture: i386
 Depends: ${misc:Depends}, libjpeg62
-Description: Permite acceder y utilizae información de origen satelital.
+Description: Permite acceder y utilizar información de origen satelital.
  En el marco del Plan Espacial Nacional 2004-2015 se crea el "Programa de
  Entrenamiento Satelital para niños y jóvenes 2Mp" con el objetivo de acercar
  la tecnología satelital a 2 Millones de pibes. A través del desarrollo del
